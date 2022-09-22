@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest -i",
+    "test": "jest -i --coverage",
     "dev": "nodemon src/server.ts"
   },
   "keywords": [],
