@@ -1,7 +1,7 @@
-import app from "../src/app";
+import app from "../../src/app";
 import supertest from "supertest";
 import recommendationsFactory from "./factories/recommendationsFactory";
-import { prisma } from "../src/database";
+import { prisma } from "../../src/database";
 import { Recommendation } from "@prisma/client";
 
 beforeEach(async () => {
