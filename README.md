@@ -15,3 +15,5 @@ npx prisma migrate dev
 npm test
 
 ```
+
+É necessário preencher os arquivos .env tanto da pasta /front-end quanto /back-end
